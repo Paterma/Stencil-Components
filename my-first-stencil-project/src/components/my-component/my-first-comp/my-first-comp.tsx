@@ -1,6 +1,4 @@
 import { Component, Prop, h } from '@stencil/core';
-// import { format } from '../../utils/utils';
-// import { defineCustomElements } from '@astrouxds/astro-web-components/loader'
 
 
 // defineCustomElements()
@@ -37,7 +35,7 @@ export class MyFirstComp {
             
             <button id='disabledBtn' aria-disabled={disabled ? 'true' : null}
             disabled={disabled}>
-            I'm a disabled button
+            Disabled button
             </button>
             
             <button id='hoverBtn'> <span id='hoverTxt'>Hover Button</span></button>
